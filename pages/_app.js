@@ -1,8 +1,9 @@
 import "@/styles/globals.css";
 import supabase from "@/utils/supabase";
 import { SessionContextProvider } from "@supabase/auth-helpers-react";
+import dynamic from "next/dynamic";
 
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   if (Component.getLayout) {
     return Component.getLayout(
       <SessionContextProvider
@@ -15,3 +16,5 @@ export default function App({ Component, pageProps }) {
   }
   return <Component {...pageProps} />;
 }
+
+export default dynamic(() => Promise.resolve(App), { ssr: false });

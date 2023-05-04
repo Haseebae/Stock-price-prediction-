@@ -15,7 +15,7 @@ function Home() {
 
       if (authError) {
         router.push("/login");
-        throw authError;
+        throw "Please login!";
       }
     } catch (error) {
       alert(error);
@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <>
-      <div></div>
+      <div>Home</div>
     </>
   );
 }

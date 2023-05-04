@@ -47,7 +47,7 @@ export default function Login() {
         <div className="title">
           <h1 className="text-gray-800 text-4xl font-bold py-4">Sign In</h1>
           <p className="w-3/4 mx-auto text-gray-400">
-            Check Out Your Latest Insights
+            To check out your saved bubbles
           </p>
         </div>
 
