@@ -1,0 +1,17 @@
+/* proSidebarStyles.css */
+
+.pro-sidebar-header {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.pro-sidebar-menu {
+  background-color: #f7f7f7;
+}
+
+.pro-sidebar-menu .pro-menu-item {
+  color: #333;
+}
+.pro-menu-item:hover {
+  background-color: #555;
+}
