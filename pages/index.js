@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import supabase from "@/utils/supabase";
 import { useRouter } from "next/router";
+import Blowing from "../public/Blowing.gif"
 
 // import Image from "next/image"
 import { Head } from 'next/head';
