@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* > * {
+  font-family: "Poppins", sans-serif;
+}
+
+.col1 {
+  text-align: left;
+  font-weight: 100;
+}
+
+.col2 {
+  font-style: normal;
+  text-align: left;
+  color: #ff0000;
+}
+
+.col3 {
+  text-align: left;
+  color: #0000ff;
+}
+
+.col4 {
+  text-align: left;
+  font-weight: 200;
+}
+
+/* XZZZ */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.logooo {
+  position: relative;
+}
+
+.body {
+  margin: 0 0;
+  background-image: url("https://s11.gifyu.com/images/Blowing.gif");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
